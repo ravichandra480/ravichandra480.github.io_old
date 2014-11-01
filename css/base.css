@@ -7,6 +7,11 @@ body {
 .circle {
   border-radius: 50%;
 }
+.page-title1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
 .pull-left {
   float: left;
   display: inline-block;
@@ -15,8 +20,45 @@ body {
   float: right;
   display: inline-block;
 }
+p {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 5px 0;
+  line-height: 28px;
+  font-family: Roboto;
+}
+.tag {
+  font-family: Roboto;
+  font-size: 12px;
+  padding: 2px 10px;
+  color: #fca601;
+  background: #fecb6a;
+  border: 1px solid #fca601;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
 .display-inline {
   display: inline-block;
+}
+.prof-details {
+  font-family: Roboto;
+}
+.prof-details .experience {
+  width: 70%;
+  min-height: 960px;
+}
+.prof-details .experience .exp-details {
+  padding: 20px 20px 0;
+}
+.prof-details .skils {
+  width: 30%;
+  min-height: 960px;
+  background: rgba(0, 150, 136, 0.02);
+}
+.prof-details .skils .skill-details .attribue {
+  padding: 20px;
 }
 .header {
   background: #009688;
