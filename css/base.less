@@ -13,6 +13,12 @@ body{
 .page-title2{
 
 }
+.width-30{
+    width: 30px;
+}
+.width-80{
+    width: 80px;
+}
 .pull-left{
     float: left;
     display: inline-block;
@@ -21,6 +27,8 @@ body{
     float: right;
     display: inline-block;
 }
+.margin-right-10{margin-right: 10px;};
+.margin-bottom-10{margin-bottom: 10px;};
 p{
     font-weight: 300;
     font-size: 16px;
@@ -32,7 +40,7 @@ p{
     font-family: Roboto;
     font-size: 12px;
     padding: 2px 10px;
-    color: #fca601;
+    color: #000;
     background: #fecb6a;
     border: 1px solid #fca601;
     border-radius: 2px;
@@ -41,10 +49,12 @@ p{
     display: inline-block;
 }
 .display-inline{display: inline-block;}
+.text-center{text-align: center}
 .prof-details{
     font-family: Roboto;
     position: absolute;
     top: 110px;
+    padding-bottom: 70px;
     .experience{
         width: 70%;
         min-height: 960px;
@@ -58,6 +68,9 @@ p{
         background: rgba(0, 150, 136, 0.02);
         .skill-details{
             .attribue{
+                padding: 20px;
+            }
+            .lngs{
                 padding: 20px;
             }
         }
@@ -137,6 +150,32 @@ p{
                 text-decoration: underline;
             }
         }
-    }
-}
+    }   
 
+}
+.footer{
+    bottom: 0;
+    padding: 12px 0;
+    position: fixed;    
+    width: 100%;
+    z-index: 99;
+    .follow{
+        float: right;
+        a{
+            background:#000;
+            border-radius: 100%;
+            color: #fff;
+            border: 1px solid #000;
+            margin-right: 20px;
+            padding: 4px 6px;
+            transition: background 1ms ease 200ms;
+        }
+        a:hover{
+            background: rgba(0, 0, 0, 0);
+            color: #000;
+            transition: all 200ms ease 0s;
+            border: 1px solid #000;
+        }
+    }
+    
+}
