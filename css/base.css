@@ -44,6 +44,8 @@ p {
 }
 .prof-details {
   font-family: Roboto;
+  position: absolute;
+  top: 110px;
 }
 .prof-details .experience {
   width: 70%;
@@ -65,9 +67,19 @@ p {
   display: block;
   height: 110px;
   width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+.header .icon {
+  font-size: 20px;
+  color: #fff;
+}
+.header .icon-sm {
+  font-size: 14px;
+  color: #fff;
 }
 .header .name {
-  width: 70%;
+  width: 67%;
   height: 100%;
   display: inline-block;
 }
@@ -103,7 +115,7 @@ p {
   color: #05443e;
 }
 .header .contacts {
-  width: 30%;
+  width: 32.8%;
   height: 100%;
   background: #0f9c8f;
   display: inline-block;
@@ -113,8 +125,8 @@ p {
   color: #fff;
   font-family: roboto;
   font-weight: 100;
-  line-height: 26px;
-  padding: 15px 20px;
+  line-height: 25px;
+  padding: 15px 68px;
 }
 .header .contacts .details a {
   color: #fff;
