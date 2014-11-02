@@ -85,7 +85,6 @@ p {
 }
 .prof-details .skils .skill-details .download img {
   width: 200px;
-  border: 4px solid #444;
   cursor: pointer;
   -webkit-transform: rotate(11deg);
   -moz-transform: rotate(11deg);
@@ -95,7 +94,7 @@ p {
 }
 .prof-details .skils .skill-details .download img:hover {
   width: 200px;
-  border: 8px solid #000;
+  border: 8px solid #009688;
   cursor: pointer;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
