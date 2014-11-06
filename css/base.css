@@ -11,6 +11,9 @@ body {
   font-weight: 500;
   color: #000;
 }
+div#___person_0 {
+  margin-left: 9px !important;
+}
 .width-30 {
   width: 30px;
 }
