@@ -101,8 +101,48 @@ p {
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
 }
-.header {
+.header-mini {
   background: #009688;
+  display: block;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+}
+.header-mini .name {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+}
+.header-mini .name .details {
+  padding: 10px 50px;
+}
+.header-mini .name .details .user-name {
+  font-family: Roboto;
+  font-weight: 100;
+  vertical-align: middle;
+}
+.header-mini .name .details .user-name .first {
+  color: #fff;
+  font-size: 30px;
+}
+.header-mini .name .details .user-name .second {
+  color: #05443e;
+  font-size: 20px;
+}
+.header-mini .name .details .title {
+  font-family: Roboto;
+  color: #05443e;
+}
+.header-mini .contacts {
+  width: 30%;
+  height: 100%;
+  background: #0f9c8f;
+  display: inline-block;
+  text-align: right;
+}
+.header {
+  background: rgba(0, 0, 0, 0.8);
   display: block;
   height: 110px;
   width: 100%;
@@ -123,7 +163,7 @@ p {
   display: inline-block;
 }
 .header .name .cv-logo {
-  background: #00e5ff;
+  background: #444;
   font-family: Roboto;
   font-size: 44px;
   font-weight: 100;
@@ -142,33 +182,36 @@ p {
   vertical-align: middle;
 }
 .header .name .details .user-name .first {
-  color: #fff;
+  color: #fcfcfc;
   font-size: 45px;
 }
 .header .name .details .user-name .second {
-  color: #05443e;
+  color: #777;
   font-size: 30px;
 }
 .header .name .details .title {
   font-family: Roboto;
-  color: #05443e;
+  color: #000;
 }
 .header .contacts {
   width: 30%;
   height: 100%;
-  background: #0f9c8f;
+  background: #444;
   display: inline-block;
   text-align: right;
 }
 .header .contacts .details {
-  color: #fff;
+  color: #aaa;
   font-family: roboto;
   font-weight: 100;
   line-height: 25px;
   padding: 15px 20px;
 }
+.header .contacts .details i {
+  color: #888;
+}
 .header .contacts .details a {
-  color: #fff;
+  color: #aaa;
   text-decoration: none;
   cursor: pointer;
 }
@@ -181,6 +224,10 @@ p {
   position: fixed;
   width: 100%;
   z-index: 99;
+}
+.footer .follow-btns {
+  float: left;
+  padding: 0 10px;
 }
 .footer .follow {
   float: right;

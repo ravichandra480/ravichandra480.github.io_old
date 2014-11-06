@@ -98,8 +98,49 @@ p{
         
     }
 }
-.header{
+.header-mini{
     background: #009688;
+    display: block;
+    height: 60px;    
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    .name{
+        width: 70%;
+        height: 100%;
+        display: inline-block;
+        .details{
+            padding: 10px 50px;
+            .user-name{
+                font-family: Roboto;
+                font-weight: 100;
+                vertical-align: middle;
+                .first{
+                    color: #fff;
+                    font-size: 30px;
+                }
+                .second{
+                    color: #05443e;
+                    font-size: 20px;
+                }
+            }
+            .title{
+                font-family: Roboto;
+                color: #05443e;
+            }
+        }
+    }
+    .contacts{
+        width: 30%;
+        height: 100%;
+        background: #0f9c8f;
+        display: inline-block;
+        text-align: right;
+    }
+    
+}
+.header{
+    background: rgba(0, 0, 0, 0.8);
     display: block;
     height: 110px;    
     width: 100%;
@@ -118,7 +159,7 @@ p{
         height: 100%;
         display: inline-block;
         .cv-logo{
-            background: #00e5ff;
+            background: #444;
             font-family: Roboto;
             font-size: 44px;
             font-weight: 100;
@@ -135,17 +176,17 @@ p{
                 font-weight: 100;
                 vertical-align: middle;
                 .first{
-                    color: #fff;
+                    color: #fcfcfc;
                     font-size: 45px;
                 }
                 .second{
-                    color: #05443e;
+                    color: #777;
                     font-size: 30px;
                 }
             }
             .title{
                 font-family: Roboto;
-                color: #05443e;
+                color: #000;
             }
         }
         
@@ -153,17 +194,20 @@ p{
     .contacts{
         width: 30%;
         height: 100%;
-        background: #0f9c8f;
+        background: #444;
         display: inline-block;
         text-align: right;
         .details{
-            color: #fff;
+            color: #aaa;
             font-family: roboto;
             font-weight: 100;
             line-height: 25px;
             padding: 15px 20px;
+            i{
+                color: #888;
+            }
             a{
-                color: #fff;
+                color: #aaa;
                 text-decoration: none;
                 cursor: pointer;
             }
@@ -180,6 +224,10 @@ p{
     position: fixed;    
     width: 100%;
     z-index: 99;
+    .follow-btns{
+        float: left;
+        padding: 0 10px;
+    }
     .follow{
         float: right;
         a{
