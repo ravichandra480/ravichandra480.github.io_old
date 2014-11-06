@@ -83,7 +83,7 @@ p {
 .prof-details .skils .skill-details .download {
   text-align: center;
 }
-.prof-details .skils .skill-details .download img {
+.prof-details .skils .skill-details .download .pdf {
   width: 200px;
   cursor: pointer;
   -webkit-transform: rotate(11deg);
@@ -92,7 +92,7 @@ p {
   -ms-transform: rotate(11deg);
   transition: 0.25s ease-in-out;
 }
-.prof-details .skils .skill-details .download img:hover {
+.prof-details .skils .skill-details .download .pdf:hover {
   width: 200px;
   border: 8px solid #009688;
   cursor: pointer;
